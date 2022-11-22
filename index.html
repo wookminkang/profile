@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Portfolio : Kang Min Wook</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./assets/css/slide.css">
+	<script type="text/javascript">
+	/*! modernizr 3.6.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-cssanimations-csspositionsticky-csstransforms-csstransitions-overflowscrolling-setclasses !*/
+!function(e,n,t){function r(e,n){return typeof e===n}function s(){var e,n,t,s,o,i,a;for(var l in w)if(w.hasOwnProperty(l)){if(e=[],n=w[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(s=r(n.fn,"function")?n.fn():n.fn,o=0;o<e.length;o++)i=e[o],a=i.split("."),1===a.length?Modernizr[a[0]]=s:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=s),C.push((s?"":"no-")+a.join("-"))}}function o(e){var n=_.className,t=Modernizr._config.classPrefix||"";if(x&&(n=n.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),x?_.className.baseVal=n:_.className=n)}function i(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):x?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function a(e,n){return!!~(""+e).indexOf(n)}function l(e,n){return function(){return e.apply(n,arguments)}}function f(e,n,t){var s;for(var o in e)if(e[o]in n)return t===!1?e[o]:(s=n[e[o]],r(s,"function")?l(s,t||n):s);return!1}function u(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function c(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(n,t,r){var s;if("getComputedStyle"in e){s=getComputedStyle.call(e,n,t);var o=e.console;if(null!==s)r&&(s=s.getPropertyValue(r));else if(o){var i=o.error?"error":"log";o[i].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else s=!t&&n.currentStyle&&n.currentStyle[r];return s}function p(){var e=n.body;return e||(e=i(x?"svg":"body"),e.fake=!0),e}function m(e,t,r,s){var o,a,l,f,u="modernizr",c=i("div"),d=p();if(parseInt(r,10))for(;r--;)l=i("div"),l.id=s?s[r]:u+(r+1),c.appendChild(l);return o=i("style"),o.type="text/css",o.id="s"+u,(d.fake?d:c).appendChild(o),d.appendChild(c),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(n.createTextNode(e)),c.id=u,d.fake&&(d.style.background="",d.style.overflow="hidden",f=_.style.overflow,_.style.overflow="hidden",_.appendChild(d)),a=t(c,e),d.fake?(d.parentNode.removeChild(d),_.style.overflow=f,_.offsetHeight):c.parentNode.removeChild(c),!!a}function g(n,r){var s=n.length;if("CSS"in e&&"supports"in e.CSS){for(;s--;)if(e.CSS.supports(c(n[s]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];s--;)o.push("("+c(n[s])+":"+r+")");return o=o.join(" or "),m("@supports ("+o+") { #modernizr { position: absolute; } }",function(e){return"absolute"==d(e,null,"position")})}return t}function v(e,n,s,o){function l(){c&&(delete N.style,delete N.modElem)}if(o=r(o,"undefined")?!1:o,!r(s,"undefined")){var f=g(e,s);if(!r(f,"undefined"))return f}for(var c,d,p,m,v,y=["modernizr","tspan","samp"];!N.style&&y.length;)c=!0,N.modElem=i(y.shift()),N.style=N.modElem.style;for(p=e.length,d=0;p>d;d++)if(m=e[d],v=N.style[m],a(m,"-")&&(m=u(m)),N.style[m]!==t){if(o||r(s,"undefined"))return l(),"pfx"==n?m:!0;try{N.style[m]=s}catch(h){}if(N.style[m]!=v)return l(),"pfx"==n?m:!0}return l(),!1}function y(e,n,t,s,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+P.join(i+" ")+i).split(" ");return r(n,"string")||r(n,"undefined")?v(a,n,s,o):(a=(e+" "+z.join(i+" ")+i).split(" "),f(a,n,t))}function h(e,n,r){return y(e,t,t,n,r)}var C=[],w=[],S={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){w.push({name:e,fn:n,options:t})},addAsyncTest:function(e){w.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var _=n.documentElement,x="svg"===_.nodeName.toLowerCase(),b=S._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];S._prefixes=b,Modernizr.addTest("csspositionsticky",function(){var e="position:",n="sticky",t=i("a"),r=t.style;return r.cssText=e+b.join(n+";"+e).slice(0,-e.length),-1!==r.position.indexOf(n)});var T="Moz O ms Webkit",P=S._config.usePrefixes?T.split(" "):[];S._cssomPrefixes=P;var z=S._config.usePrefixes?T.toLowerCase().split(" "):[];S._domPrefixes=z;var E={elem:i("modernizr")};Modernizr._q.push(function(){delete E.elem});var N={style:E.elem.style};Modernizr._q.unshift(function(){delete N.style}),S.testAllProps=y,S.testAllProps=h,Modernizr.addTest("cssanimations",h("animationName","a",!0)),Modernizr.addTest("csstransforms",function(){return-1===navigator.userAgent.indexOf("Android 2.")&&h("transform","scale(1)",!0)}),Modernizr.addTest("csstransitions",h("transition","all",!0)),Modernizr.addTest("overflowscrolling",h("overflowScrolling","touch",!0)),s(),o(C),delete S.addTest,delete S.addAsyncTest;for(var k=0;k<Modernizr._q.length;k++)Modernizr._q[k]();e.Modernizr=Modernizr}(window,document);
+	</script>
+</head>
+<body>
+	<header>
+        <div class="nav-bar">
+            <span class="year">2022</span>
+            <h2 class="title">Kang Min Wook Portfolio<b>.</b></h2>
+        </div>
+    </header>	
+	<div class="pseudo-body"></div>
+	<div class="web-container">
+        <div class="content-box">
+			<div class="section-box">
+				<div class="video-box mobile">
+					<video style="width:100%" autoplay muted playsinline loop >
+						<source src="./assets/video/m_main_movie.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="video-box pc">
+					<video style="width:100%" autoplay muted playsinline loop >
+						<source src="./assets/video/main_movie.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="sec00 fix_motion">
+					<article class="sticky_cont"> <!-- 고정시킬 엘리먼트 sticky -->
+						<div class="sec00bg"></div>
+						<div class="cont_box">
+							<ul>
+								<li class="test01 a01">
+									<p class="text-event1">
+										<span>웹 퍼블리셔.</span>
+										<small>
+											태어났습니다. 1993년 어느날 <br style="line-height: 1;">
+											이름은 강민욱.<br style="line-height: 1;"> 
+											이 아이는 추후 웹퍼블리셔가 됩니다!
+										</small>
+									</p>
+								</li>
+								<li class="test01 a02">
+									<p class="text-event2">
+										<span>4년차.</span>
+										<small>
+											다양한 프로젝트를 진행하며,<br>
+											4년차가 되었습니다.<br>									
+										</small>
+									</p>
+								</li>
+								<li class="test01 a03">
+									<p class="text-event3">
+										<span>인생직업.</span>
+										<small>
+											재밌다 웹코딩!<br>
+											좋아하는 일을 잘하니까!<br>
+											이보다 더 완벽한 인생직업이 있을까요?
+										</small>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+
+				<div class="sec01">
+					<div class="trigger t2" id="trigger1"></div>
+					<div class="trigger" id="trigger2"></div>
+					<div class="trigger" id="trigger3"></div>
+					<div class="trigger" id="trigger4"></div>
+					<div class="trigger" id="trigger5"></div>
+					
+					<div class="imgse"></div>
+					<div class="txt-box">
+						<ul>
+							<li>
+								<p class="text-event1">
+									<span>웹 퍼블리셔.</span>
+									<small>
+										태어났습니다. 1993년 어느날 <br style="line-height: 1;">
+										이름은 강민욱.<br style="line-height: 1;"> 
+										이 아이는 추후 웹퍼블리셔가 됩니다!
+									</small>
+								</p>
+							</li>
+							<li>
+								<p class="text-event2">
+									<span>4년차.</span>
+									<small>
+										다양한 프로젝트 경험하여<br>
+										웹퍼블리셔 외길 경력 4년차가 되었습니다.<Br>									
+									</small>
+								</p>
+							</li>
+							<li>
+								<p class="text-event3">
+									<span>인생직업</span>
+									<small>
+										재밌다 웹코딩!<br>
+										좋아하는 일을 잘하니까!<Br>
+										이보다 더 완벽한 인생직업이 있을까요?
+									</small>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sec02">
+					<div class="sec02-contbox">
+						<div id="trigger6"></div>
+						<div class="spin-won">
+							그 외
+						</div>
+						<div class="slide-wrap">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<p> 코딩 <img src="./assets/icon/keyboard.png" alt="키보드" class="keyboard"> </p>	
+									</div>	
+									<div class="swiper-slide">
+										<p> 협업 <img src="./assets/icon/hands.png" alt="협업" class="hand"></p>	
+									</div>	
+									<div class="swiper-slide">
+										<p> 기획 <img src="./assets/icon/write.png" alt="기획"></p>	
+									</div>
+									<div class="swiper-slide">
+										<p> 팀 프로젝트 <img src="./assets/icon/team.png" alt="프로젝트"></p>
+									</div>
+									<div class="swiper-slide">
+										<p> 콘텐츠 개발 <img src="./assets/icon/my2.png" alt="개발"></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panorama">
+							<p>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>								
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+								<span>&nbsp;<b>↓</b> 더 자세히 알아볼까요? </span>
+							</p>
+						</div>	
+					</div>
+				</div>
+				<div class="sec03">
+					<div class="common-box flex">
+						<div class="skils">
+							<div>
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											SCSS.
+										</div>
+										<div class="swiper-slide">
+											JavaScript.
+										</div>
+										<div class="swiper-slide">
+											TypeScript.
+										</div>
+										<div class="swiper-slide">
+											jQuery.
+										</div>
+										<div class="swiper-slide">
+											React.
+										</div>
+										<div class="swiper-slide">
+											GitHub
+										</div>
+										<div class="swiper-slide">
+											React.
+										</div>
+										<div class="swiper-slide">
+											Php.
+										</div>
+										<div class="swiper-slide">
+											CI.
+										</div>
+									</div>
+								</div>
+							</div>
+
+						
+
+
+						</div>
+						<div class="cont-box">
+							<div>
+								<p class="tit-p">
+									왼쪽에 스킬들을 <br />
+									활용하여, <br />
+									4년간 다양한 경험을  <br />
+									쌓으며 성장했습니다. 								
+								</p>
+								
+								
+								<div class="chart-box">
+									<video style="width:75%" autoplay muted playsinline loop >
+										<source src="./assets/video/chart.mp4" type="video/mp4">
+									</video>
+								</div>
+								
+								<span class="more-btn">
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sec04">
+					<p class="p-tit">
+						그럼 이쯤에서<br class="d-xl-none"> 같이 볼까요?
+						<span>
+							↓
+						</span>
+					</p>
+				</div>
+				<div class="sec05 fix_motion">
+					<article class="sticky_cont"> <!-- 고정시킬 엘리먼트 sticky -->
+						<div class="cont_box ">
+							<div class="intro_txt">
+								<h2>
+									View All<br class="d-sm-none">Portfolio
+								</h2>
+							</div>
+							<div class="left_mask"></div>
+							<div class="right_mask"></div>
+							<figure class="bg_img"></figure>
+							<div class="ending_txt">
+								<div class="tb_row">
+									<div class="tb_cell">
+										<p>
+											<a href="https://www.notion.so/b06abb97ecb74c2e8afcdaece63821f9" target="_blank">
+												<!-- <b class="mask-box"></b> -->
+												View<br class="d-xl-none"> All<br class="d-xl-none"> Portfolio
+											</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="sec06">
+					<div class="tit-box">
+						<div>
+							<p class="tit">
+								<span class="stit">포트폴리오는 어떠셨나요?</span>
+								이제, 거의 <br class="d-xl-none"> 다왔습니다.
+								<span class="arrow-bottom">
+									↓
+								</span>
+							</p>	
+						</div>
+					</div>
+				</div>
+				<div class="sec07">
+					<div class="fast-gif-container">
+						<div class="fast-gif">
+							<img src="./assets/video/running-min.gif" >
+						</div>
+					</div>
+					<p class="p-tit">
+						빠르게 가볼게요!
+						<span>
+							↓
+						</span>
+					</p>
+				</div>
+				<div class="sec08">
+					<div class="line-box">
+						<span class="line1"></span>
+						<span class="line2"></span>
+						<span class="line3"></span>
+						<span class="line4"></span>
+					</div>
+				</div>
+				<div class="sec09">
+					<div class="my-keyword-box">
+						<div>
+							<ul>
+								<li>신뢰감있는 <img src="./assets/icon/up.png" alt="신뢰감있는"></li>
+								<li class="none-bg">수용하는 <img src="./assets/icon/ear.png" alt="수용"></li>
+								<li class="none-bg">결정력 <img src="./assets/icon/ok.png" alt="결정력"></li>
+								<li class="none-bg">관찰력 <img src="./assets/icon/find.png" alt="관찰력"></li>
+								<li class="none-bg">열정적인 <img src="./assets/icon/fire.png" alt="열정적인"></li>
+								<li class="none-bg">신중한 <img src="./assets/icon/face.png" alt="신중한"></li>
+								<li>협력적인 <img src="./assets/icon/hands.png" alt="협력"></li>
+								
+								<li class="none-bg">추진력 <img src="./assets/icon/run.png" alt="추진력"></li>
+								<li>상상력 <img src="./assets/icon/light.png" alt="상상력"></li>
+							</ul>
+							
+							<p class="stit">
+								"저를 표현하는 주요 수식어입니다."
+							</p>
+
+
+							<p class="insa">
+								좋아하는 일을 하기때문에 엄청난 
+								애정과 열정을 가지고 즐겁게 작업합니다! <br class="d-sm-block">
+
+								"이 도자기도 아니여!! (쨍그랑)" <br class="d-sm-block">
+								이러한 장인정신으로 더 좋은 결과물이 
+								나올때까지 다시 뒤집고 연구하며 
+								풀리지 않으면 풀릴때까지 
+								시험하며 작업합니다.<br class="d-sm-block">
+
+								또한 활기찬 에너지와 
+								다양한 커뮤니케이션 능력으로 팀원들과
+								협업하고 소통하며 성과를 이끌어 냅니다. <br class="d-sm-block">
+								
+								<br class="d-sm-block">
+								<br class="d-sm-block">
+								<br class="d-sm-block">
+
+								"여기가 바로 코딩 맛집!!"<br class="d-sm-block">
+								저의 다채로운 퍼포먼스와 역량으로<br class="d-xl-none">
+								자주 찾게 되는 단골맛집같은 <br class="d-xl-none">
+								코더가 되겠습니다!
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="sec10">
+					<div class="line-box">
+						<span class="line1"></span>
+						<span class="line2"></span>
+						<span class="line3"></span>
+						<span class="line4"></span>
+					</div>
+				</div>
+
+				<div class="sec11">
+					<p class="p-tit">
+						여기까지.
+						<span>
+							↓
+						</span>
+					</p>
+				</div>
+
+
+				<div class="sec12">
+					<div class="video-box">
+						<video autoplay muted playsinline loop >
+							<source src="./assets/video/busy.mp4" type="video/mp4">
+						</video>
+						<p class="p-tit">
+							바쁘다 바뻐<br class="d-xl-none"> 현대사회  <img src="./assets/icon/run.png" alt="바쁘다 바뻐! 현대사회">
+						</p>
+					</div>
+				</div>
+
+				<div class="sec13">
+					<div>
+						<p class="p-tit">
+							그럼에도 시간 내어 <br class="d-sm-block">
+							끝까지 봐주신<br class="d-xl-none"> 여러분께 <br class="d-sm-block">
+							감사드립니다.
+						</p>
+						<p class="p-stit">
+							저의 포트폴리오를 보고계신 여러분과<br class="d-xl-none">
+							만날 수 있는 그날을 기다리고 있겠습니다. <br class="d-sm-block">
+							감사합니다.
+							<span>
+								↓
+							</span>
+						</p>
+					</div>
+				</div>
+
+				<div class="sec14">
+					<div class="common-box flex">
+						<div class="my-info-card">
+							<div>
+								<p class="tit">Kang Min Wook</p>
+								<p class="tit birthday">1993.08.13</p>
+								<p class="stit location">
+									Seoul Republic of Korea
+								</p>
+								<div class="emoji-box">
+									<video style="width:100%" autoplay loop muted playsinline >
+										<source src="./assets/video/emoji.mp4" type="video/mp4">
+									</video>
+								</div>
+							</div>
+						</div>
+						<div class="my-info-card-two">
+							<div>
+								<div>
+								<p class="tit">Contact</p>
+								
+								<div>
+									<p class="stit">H.P </p>
+									<p class="txt number">010-7665-4418</p>
+								</div>
+
+								<div>
+									<p class="stit">Email</p>
+									<p class="txt">kangmu950@gmail.com</p>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sec15">
+					<div class="ft-top">
+						<div>
+							<p class="tit">
+								이 사이트는 비상업적 용도로 <br class="d-xl-none">
+								제작된 포트폴리오 사이트입니다.
+							</p>
+							<p class="stit">
+								Copyright 2022. Kang Min Wook all rights reserved.
+							</p>
+						</div>
+					</div>
+					<div class="ft-bottom">
+						<div>
+							<ul>
+								<li>
+									<span>강민욱</span>
+									기여도 : 기획·HTML·CSS·JAVASCRIPT - 100%
+								</li>
+								<li>
+									<span>김가현</span>
+									기여도 : 기획·디자인·영상·모션그래픽 - 100%
+								</li>								
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/sec01.js"></script>
+<script  src="./script.js"></script>
+<script  src="./assets/js/slide.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js'></script>
+
+
+<script>
+	let vh = window.innerHeight * 0.01;
+	// Then we set the value in the --vh custom property to the root of the document
+	document.documentElement.style.setProperty("--vh", `${vh}px`);
+</script>
+</body>
+</html>
