@@ -448,7 +448,7 @@
 									기여도 : 기획·디자인·영상·모션그래픽 - 100%
 								</li>								
 							</ul>
-						</div>	
+						</div>	 
 					</div>
 				</div>
 			</div>
@@ -457,6 +457,8 @@
 	</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
 <script src="./assets/js/sec01.js"></script>
 <script  src="./script.js"></script>
 <script  src="./assets/js/slide.js"></script>
@@ -464,12 +466,24 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js'></script>
+<script src="https://urbanlaunderette.com/wp-content/themes/launderette/js/vendors/scroll/jquery.nicescroll.min.js?ver=3.7.6"></script>
 
 
 <script>
 	let vh = window.innerHeight * 0.01;
 	// Then we set the value in the --vh custom property to the root of the document
 	document.documentElement.style.setProperty("--vh", `${vh}px`);
+
+	$(function() {  
+		$("body").niceScroll({
+			cursorcolor: "#0fff00",
+			scrollspeed: 10,
+			mousescrollstep: 10,
+		});
+	});
 </script>
+
+
+
 </body>
 </html>
